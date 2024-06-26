@@ -1,0 +1,44 @@
+.form {
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.form div {
+    margin-bottom: 1em;
+}
+
+.form label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+
+.form input,
+.form select {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form span {
+    color: red;
+    font-size: 0.875em;
+}
